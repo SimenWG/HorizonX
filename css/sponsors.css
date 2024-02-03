@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url("../img/background\ cars.mp4");
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  overflow: scroll;
+}
+
+
+.delivering {
+    margin-top: -35px !important; 
+    display: flex;
+}
+
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 150;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -5; 
+    filter: brightness(10%);
+}
+    
+.active {
+    color: aliceblue;
+}
+
+
+
+.off-screen-menu {
+    background-color:  rgba(255, 0, 0, 1);
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+
+
+
+.off-screen-menu.active {
+    right: 0;
+}
+.off-screen-menu a {
+    color: black;
+    transition: color 0.6s;
+}
+
+.off-screen-menu-a:hover {
+    color: white;
+    border-bottom: 3px solid whitesmoke;
+    padding-top: 5px;
+}
+
+
+.fat {
+    font-weight: bolder;
+}
+
+.info h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: 100;
+}
+
+.first-line {
+    display: block; 
+    font-weight: lighter;
+    margin-bottom: -40px;
+}
+
+.info {
+    display: flex;
+    top: 50%;
+    left: 50%; 
+    color: white;
+    height: 115px;
+    width: 100%;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.info p {
+    top: 80px;
+    position: absolute;
+    display: flex;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+}
+
+nav img {
+    height: 85px;
+    width: 150px;
+}
+
+.ham-menu {
+    height: 50px;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+}
+.ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:hover {
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+.ham-menu.active span {
+    background-color: white;
+}
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+
+.text1info {
+    margin-top: 120px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.text2info {
+    display: flex;
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sponsortext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #202020c7;
+    border-bottom: 5px solid #ff0000c7;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    padding: 20px;
+}
+
+
+.sponsortext2 {
+    text-align: center;
+}
+
+.sponsortext2 img {
+    height: auto;
+    width: 400px;
+    background-color: #999999c7; 
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 2.5%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.sponsortext2 img:hover {
+    height: auto;
+    background-color: #000000; 
+}
