@@ -38,12 +38,10 @@ body {
     z-index: -5; 
     filter: brightness(30%);
 }
-    
+  
 .active {
     color: aliceblue;
 }
-
-
 
 .off-screen-menu {
     background-color:  rgba(255, 0, 0, 1);
@@ -134,7 +132,6 @@ nav img {
     width: 40px;
     margin-left: auto;
     position: relative;
-    
 }
 .ham-menu span {
     height: 5px;
