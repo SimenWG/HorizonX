@@ -12,12 +12,12 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-image: url("../img/background.mp4");
+    background-image: url("../img/background\ cars.mp4");
     background-repeat: no-repeat;
     height: auto;
     width: 100%;
     background-attachment: fixed;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .delivering {
