@@ -251,3 +251,9 @@ nav img {
     height: auto;
     background-color: #000000; 
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-family: 'Noto Sans', sans-serif; 
+    }
+}
