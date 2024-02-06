@@ -209,11 +209,14 @@ nav img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 2rem;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
+    /* transition: background-color 1s, color 0.3s ease-in-out; */
+
   }
   
   .car-item:hover {
-    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, background-color 0.5s ease-out;
   }
   
   .car-item img {
@@ -251,7 +254,7 @@ nav img {
   }
   
   .car-item .buy-button:hover {
-    background-color: #5e1514;
+    background-color: #e53935;
   }
 
 
