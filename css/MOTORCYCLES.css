@@ -327,30 +327,34 @@ nav img {
   }
 
 
-
-
-  @media screen and (max-width: 400px) {
-
-    .navbar-links {
-        flex-direction: column; 
+  @media only screen and (max-width: 767px) {
+    .off-screen-menu {
+        max-width: 100%;
+        width: 100%;
     }
 
-    .nav-link {
-        margin-left: 0; 
-        margin-top: 10px; 
+    .off-screen-menu {
+      font-size: 2rem; 
+  }
+
+  .navbar-links {
+      flex-direction: column; 
+  }
+
+  .nav-link {
+      margin-left: 0; 
+      margin-top: 10px; 
+  }
+
+    .info h1 {
+        font-size: 60px;
+    }
+
+    .info p {
+        top: 60px;
+    }
+
+    .car-item {
+        width: 100%;
     }
 }
-
-
-
-  @media screen and (max-width: 768px) {
-    .car-item {
-      width: 45%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .car-item {
-      width: 100%;
-    }
-  }
