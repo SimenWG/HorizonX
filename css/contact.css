@@ -201,24 +201,7 @@ nav img {
     color: red;
   }
  
-  @media screen and (max-width: 400px) {
-    .info h1 {
-        font-size: 40px;
-    }
- 
-    .off-screen-menu {
-        font-size: 2rem;
-    }
- 
-    .navbar-links {
-        flex-direction: column;
-    }
- 
-    .nav-link {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-}
+
  
 .kontakt {
     background-image: linear-gradient(darkred, red);
@@ -237,3 +220,36 @@ nav img {
     text-decoration: underline;
 }
  
+  @media screen and (max-width: 400px) {
+    .info h1 {
+        font-size: 40px;
+    }
+ 
+    .off-screen-menu {
+        font-size: 2rem;
+    }
+ 
+    .navbar-links {
+        flex-direction: column;
+    }
+ 
+    .nav-link {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .off-screen-menu {
+        font-size: 2rem; 
+    }
+
+    .navbar-links {
+        flex-direction: column; 
+    }
+
+    .nav-link {
+        margin-left: 0; 
+        margin-top: 10px; 
+    }
+
+
+}

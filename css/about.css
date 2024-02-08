@@ -233,7 +233,7 @@ nav img {
 .aboutus-content {
     max-width: 800px;
     margin: auto;
-    text-align: center:
+    text-align: center;
     width: 100%;
     padding: 20px;
     border-radius: 10px;
@@ -263,10 +263,34 @@ nav img {
     margin-top: 30px;
     text-align: center;
 }
+@media only screen and (max-width: 767px) {
+    .info h1 {
+        font-size: 60px;
+    }
 
-@media screen and (max-width: 400px) {
+    .first-line {
+        margin-bottom: -85px;
+    }
+
+    .aboutus {
+        height: auto;
+    }
+
     .aboutus-content {
-        padding: 0;
+        padding: 20px;
+    }
+
+    .off-screen-menu {
+        font-size: 2rem; 
+    }
+
+    .navbar-links {
+        flex-direction: column; 
+    }
+
+    .nav-link {
+        margin-left: 0; 
+        margin-top: 10px; 
     }
 
     .aboutus-content h1 {
@@ -276,14 +300,11 @@ nav img {
     .aboutus-img {
         width: 100%;
         height: auto;
-        object-fit: cover;
-        margin-top: 30px;
-        border-radius: 10px;
+        margin-top: 20px;
     }
 
     .aboutus-content p {
         font-size: 16px;
-        margin-bottom: 30px;
-        text-align: justify;
+        margin-bottom: 20px;
     }
 }
