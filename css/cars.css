@@ -346,10 +346,6 @@ nav img {
         font-size: 2rem; 
     }
 
-    .navbar-links {
-        flex-direction: column; 
-    }
-
     .nav-link {
         margin-left: 0; 
         margin-top: 10px; 
